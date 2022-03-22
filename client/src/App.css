@@ -1,0 +1,61 @@
+.ResForm {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ResForm input,
+.ResForm textarea {
+    padding: 5px;
+    margin: 10px;
+    height: 25px;
+    max-width: 700px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #1976d2;
+}
+.inline_input {
+    display: flex;
+    width: 95%;
+    max-width: 730px;
+}
+*:focus {
+    outline: none;
+}
+.menu_adder {
+    background-color: #1976d2;
+    height: 35px;
+    color: white;
+    width: 100px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+.menu_card {
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid #1976d2;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.item_detail {
+    width: 100%;
+}
+.item_photo {
+    width: 50%;
+    height: fit-content;
+}
+.item_photo > img {
+    width: 100%;
+    height: fit-content;
+}
+.otp_box {
+    border: 1px solid #1976d2 !important;
+    max-width: 300px !important;
+    border-radius: 5px;
+}
